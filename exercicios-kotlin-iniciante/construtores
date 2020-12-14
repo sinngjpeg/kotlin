@@ -1,0 +1,34 @@
+fun main(args: Array<String>) { 
+
+    
+    
+ 	val casa = casa()
+    casa.cor = "Amarelo"
+    casa.abrirJanela()
+    casa.abrirCasa()
+    
+
+    
+    
+    
+}
+
+class casa {
+    //Propriedades
+    var cor : String = ""
+	
+    //Metodos
+    fun abrirJanela(){
+        println("Abrir janela")
+    }
+    
+    fun abrirPorta(){
+        println("Abrir porta")
+    }
+    
+    fun abrirCasa(){
+        this.abrirPorta()
+        this.abrirJanela()
+    }
+
+}
