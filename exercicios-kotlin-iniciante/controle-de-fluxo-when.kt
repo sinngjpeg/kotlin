@@ -1,0 +1,28 @@
+
+
+fun main(args: Array<String>) {
+    
+    //Utilizado em algumas situações ao inves do IF, para fazer testes condicionais 
+    
+    /*
+    var opcao = 1
+    when( opcao ) {
+        1,2 -> { println("Cafe puro") 
+               println("leite separado")		
+             }
+        3 -> println("Chocolate Quente")
+        else ->{ 
+               println("Nenhuma opção selecionada")
+               println("Selecione a Melhor opção")
+        }
+        }
+    */
+    
+    var opcao = 1
+    var resultado = when(opcao) {
+        1 -> "Café Puro"
+        2 -> "Chocolate quente"
+        else -> "Nenhuma opção selecionada"
+        }
+		println(resultado)
+}
