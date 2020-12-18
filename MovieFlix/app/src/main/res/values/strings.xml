@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieFlix</string>
+    <string name="_01_00">01:00</string>
+    <string name="house_of_cards">House of Cards</string>
+    <string name="s1_e2">S1:E2</string>
+    <string name="_41_20">41:20</string>
+    <string name="pausar">pausar</string>
+    <string name="parar">parar</string>
+    <string name="voltar">voltar</string>
+    <string name="favoritar">favoritar</string>
+    <string name="imagem_do_episodio">imagem do episodio</string>
+    <string name="volume">volume</string>
+    <string name="comentarios">comentarios</string>
+    <string name="conteudo">conteudo</string>
+</resources>
